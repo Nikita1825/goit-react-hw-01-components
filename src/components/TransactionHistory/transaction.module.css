@@ -1,0 +1,29 @@
+.transactionHistory {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+.tableHeader {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.tableCell {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.tableRow:nth-child(even) {
+  background-color: lightgray;
+}
+
+.tableRow:nth-child(odd) {
+  background-color: white;
+}
